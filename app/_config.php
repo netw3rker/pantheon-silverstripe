@@ -4,7 +4,7 @@ use SilverStripe\Core\EnvironmentLoader;
 
 
 
-#$env = BASE_PATH . '/app/.env';
+$env = BASE_PATH . '/app/.env';
 
 define('SS_DATABASE_SERVER', $_ENV['DB_HOST']);
 define('SS_DATABASE_USERNAME', $_ENV['DB_USER']);
